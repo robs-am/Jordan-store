@@ -24,8 +24,8 @@ html {
 body {
     font-size: 1.6rem;
 
-    width: 414px;
-    height: 3460px;
+    width: 41.4rem;
+    height: 34.60rem;
 
     background: #F9F9F9;
 
@@ -236,4 +236,9 @@ input {
 button:focus,
 input:focus {
     border: 0;
+}
+
+footer {
+    height: 6rem;
+    background: #181818;
 }
