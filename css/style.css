@@ -50,8 +50,8 @@ h6 {
 
 .frete {
 
-    width: 414px;
-    height: 60px;
+    width: 41.4rem;
+    height: 6rem;
     left: 0px;
     top: 0px;
 
@@ -183,25 +183,33 @@ h6 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
+
 }
 
-.jordan-1,  img {
+.jordan-1,
+img {
     background: #EBE9EA;
-    
+
     margin: 5.9rem 2rem 0rem 2rem;
     padding-block: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
-   
 
-    
+
+
 }
 
-.jordan-2, .jordan-3, .jordan-4, .jordan-5, .jordan-6, .jordan-7, .jordan-8, img {
+.jordan-2,
+.jordan-3,
+.jordan-4,
+.jordan-5,
+.jordan-6,
+.jordan-7,
+.jordan-8,
+img {
     background: #EBE9EA;
-    
+
     margin: 3rem 2rem 0rem 2rem;
     padding-block: 3rem;
 
@@ -241,4 +249,20 @@ input:focus {
 footer {
     height: 6rem;
     background: #181818;
+}
+
+footer h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 196.19%;
+    /* or 35px */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #F9F9F9;
+    padding: 1.2rem 7.7rem 1.3rem 7.7rem;
 }
