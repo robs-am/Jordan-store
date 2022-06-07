@@ -122,10 +122,25 @@ h6 {
     line-height: 34px;
     
     color: #F9F9F9;
+
+    padding: 12.2rem 4.4rem 1.2rem 2rem;
+    
 }
 
 .banner-texto {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 180%;
+    /* or 29px */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #F9F9F9;
 
+    padding: 1.2rem 3.7rem 12.2rem 2rem;
 }
 
 ul,
