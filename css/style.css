@@ -178,6 +178,33 @@ h6 {
     padding: 0.5rem 2rem 5.9rem 2rem
 }
 
+.lista-jordan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.jordan-1 img {
+    background: #EBE9EA;
+    padding: 7.6rem 6.2rem;
+    margin: 5.9rem 2rem 3rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+    
+}
+
+.jordan-2 img {
+    background: #EBE9EA;
+    padding: 7.6rem 6.2rem;
+    margin: 3rem 2rem 3rem 2rem
+
+}
+
 ul,
 ol {
     list-style: none;
