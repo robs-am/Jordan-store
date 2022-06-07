@@ -294,20 +294,9 @@ footer h3 {
     
     .frete-texto {
     
-        padding-block: 1.5rem;
-        padding-inline: 5.8rem;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 196.19%;
-        /* or 31px */
-    
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    
-        color: #F9F9F9;
+        
+        font-size: 20px;
+        
     }
     
     .title {
@@ -339,10 +328,9 @@ footer h3 {
     }
     
     .banner {
-        width: 414px;
-        height: 377px;
-        left: 0px;
-        top: 120px;
+        width: 144.0rem;
+        height: 37.8rem;
+        padding-bottom: 5.8rem;
     
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/wallpaper.jpeg);
     
