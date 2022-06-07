@@ -175,7 +175,7 @@ h6 {
     align-items: center;
     text-align: center;
 
-    padding: 0.5rem 2rem 5.9rem 2rem
+    padding: 0.5rem 2rem 3rem 2rem;
 }
 
 .lista-jordan {
@@ -191,7 +191,7 @@ img {
     background: #EBE9EA;
 
     margin: 5.9rem 2rem 0rem 2rem;
-    padding-block: 3rem;
+    padding-block: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
