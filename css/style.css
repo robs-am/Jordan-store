@@ -186,10 +186,11 @@ h6 {
     
 }
 
-.jordan-1 img {
+.jordan-1,  img {
     background: #EBE9EA;
-    padding: 7.6rem 6.2rem;
-    margin: 5.9rem 2rem 3rem 2rem;
+    
+    margin: 5.9rem 2rem 0rem 2rem;
+    padding-block: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -198,10 +199,15 @@ h6 {
     
 }
 
-.jordan-2 img {
+.jordan-2, .jordan-3, .jordan-4, .jordan-5, .jordan-6, .jordan-7, .jordan-8, img {
     background: #EBE9EA;
-    padding: 7.6rem 6.2rem;
-    margin: 3rem 2rem 3rem 2rem
+    
+    margin: 3rem 2rem 0rem 2rem;
+    padding-block: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
