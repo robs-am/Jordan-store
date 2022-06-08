@@ -229,6 +229,7 @@ ol {
 
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 img {
@@ -276,8 +277,8 @@ footer h3 {
     body {
         font-size: 1.6rem;
     
-        width: 1920px;
-        height: 1080px;
+        width: 100vw;
+        
     
         background: #F9F9F9;
     
@@ -347,12 +348,14 @@ footer h3 {
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 700;
-        font-size: 32px;
+        font-size: 40px;
         line-height: 34px;
     
         color: #F9F9F9;
     
-        padding: 12.9rem 94.0rem 0rem 10rem;
+        padding: 12.9rem 94.0rem 1.9rem 10rem;
+        
+        
     
     }
     
@@ -360,21 +363,20 @@ footer h3 {
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 600;
-        font-size: 18px;
+        font-size: 28px;
         line-height: 180%;
         /* or 29px */
     
-        display: flex;
-        align-items: center;
+        
     
         color: #FFFFFF;
     
-        padding: 1.9rem 88rem 12.1rem 10rem;
+        padding: 1.9rem 88rem 1.9rem 10rem;
     }
     
     .destaques-title {
         
-        font-size: 32px;
+        font-size: 38px;
         line-height: 196.19%;
         /* identical to box height, or 55px */
     
@@ -391,7 +393,7 @@ footer h3 {
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 500;
-        font-size: 18px;
+        font-size: 24px;
         line-height: 180%;
         /* or 29px */
     
@@ -440,7 +442,7 @@ footer h3 {
     
     footer {
         height: 6rem;
-        width: 144rem;
+        width: 100vw;
         background: #181818;
         margin-top: 10rem;
         
@@ -449,7 +451,7 @@ footer h3 {
     footer h3 {
         
       
-        font-size: 18px;
+        font-size: 22px;
         line-height: 196.19%;
         /* or 35px */
     
