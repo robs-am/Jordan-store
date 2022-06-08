@@ -28,6 +28,7 @@ body {
     height: 34.60rem;
 
     background: #F9F9F9;
+    
 
 
 }
@@ -270,13 +271,13 @@ footer h3 {
     padding: 1.2rem 7.7rem 1.3rem 7.7rem;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1920px) {
 
     body {
         font-size: 1.6rem;
     
-        width: 144.0rem;
-        height: 151.5rem;
+        width: 1920px;
+        height: 1080px;
     
         background: #F9F9F9;
     
@@ -285,8 +286,8 @@ footer h3 {
 
     .frete {
 
-        width: 144.40rem;
-        height: 6rem;
+        width:100%;
+        height: 7rem;
        
     
         background: #181818;
@@ -295,7 +296,10 @@ footer h3 {
     .frete-texto {
     
         
-        font-size: 20px;
+        font-size: 24px;
+        justify-items: center;
+        align-items: center;
+        display: flex;
         
     }
     
@@ -315,7 +319,7 @@ footer h3 {
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 600;
-        font-size: 24px;
+        font-size: 34px;
         line-height: 196.19%;
         /* identical to box height, or 47px */
     
@@ -328,13 +332,13 @@ footer h3 {
     }
     
     .banner {
-        width: 144.0rem;
-        height: 37.8rem;
+        width: 100%;
+        height: 55.5rem;
         padding-bottom: 5.8rem;
     
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/wallpaper.jpeg);
     
-        background-size: cover;
+        background-position:center;
     
     
     }
