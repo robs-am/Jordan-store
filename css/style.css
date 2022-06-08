@@ -260,7 +260,7 @@ footer h3 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 196.19%;
     /* or 35px */
 
@@ -386,7 +386,7 @@ footer h3 {
     
         color: #181818;
     
-        padding: 5rem 12.9rem 0.5rem 13rem;
+        padding: 5.8rem 12.9rem 0.5rem 13rem;
     }
     
     .destaques-texto {
@@ -405,44 +405,32 @@ footer h3 {
         padding: 0.5rem 2rem 3rem 2rem;
     }
     
-    .lista-jordan {
+    .lista-jordans ol {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
+        padding-top: 5.9rem;
+
+        
         
     
     }
     
-    
-    .jordan-1,
-    .jordan-2,
-    .jordan-3,
-    .jordan-4,
-    .jordan-5,
-    .jordan-6,
-    .jordan-7,
-    .jordan-8,
-    img {
-        background: #EBE9EA;
-        width: 440px;
-        height: 390px;
-        row-gap: 1.3rem;
-    
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-        flex-direction: wrap;
+   .lista-jordans img {
+    width: 400px;
+    height: 350px;
+   }
+        
 
         
     
     }
     
     footer {
-        height: 6rem;
-        width: 100vw;
+        height: 8rem;
+        width: 100%;
         background: #181818;
         margin-top: 10rem;
         
@@ -451,7 +439,7 @@ footer h3 {
     footer h3 {
         
       
-        font-size: 22px;
+        font-size: 24px;
         line-height: 196.19%;
         /* or 35px */
     
