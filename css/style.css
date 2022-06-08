@@ -45,7 +45,7 @@ body {
 
     width: 41.4rem;
     height: 6rem;
-   
+
 
     background: #181818;
 }
@@ -94,9 +94,14 @@ body {
 .banner {
     width: 414px;
     height: 377px;
-    
+
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/wallpaper.jpeg);
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -119,7 +124,7 @@ body {
     font-weight: 600;
     font-size: 16px;
     line-height: 180%;
-  
+
     display: flex;
     align-items: center;
 
@@ -206,7 +211,7 @@ ol {
 
 a {
     text-decoration: none;
-    
+
 }
 
 img {
@@ -235,7 +240,7 @@ input:focus {
     align-items: center;
     justify-content: center;
     padding: 30px;
-     
+
 
 }
 
@@ -275,7 +280,7 @@ input:focus {
         font-weight: 600;
         font-size: 34px;
         line-height: 196.19%;
-        
+
         display: flex;
         align-items: center;
         justify-content: center;
@@ -371,7 +376,7 @@ input:focus {
 
 .footer {
     height: 8rem;
-    
+
     background: #181818;
     margin-top: 10rem;
 
