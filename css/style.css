@@ -187,6 +187,8 @@ body {
 .jordan-8,
 img {
     background: #EBE9EA;
+    border: 0.2rem solid #EBE9EA;
+    border-radius: 0.5rem;
 
     margin: 3rem 2rem 0rem 2rem;
     padding-block: rem;
