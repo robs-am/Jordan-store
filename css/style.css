@@ -385,8 +385,12 @@ input:focus {
         display: grid;
         column-gap: 0.5rem;
         row-gap: 0.5rem;
-
         padding-top: 5.9rem;
+        
+    }
+    .lista-jordan img {
+        width: 95%;
+        height: 95%;
     }
 
     .jordan-1 {
