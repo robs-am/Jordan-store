@@ -386,13 +386,34 @@ input:focus {
     }
 
     .lista-jordans ol {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-        flex-wrap: wrap;
+        display: grid;
+        column-gap: 1.3rem;
+        row-gap: 3.9rem;
+
         padding-top: 5.9rem;
     }
+
+    .jordan-1 {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .jordan-2 {
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+
+    .jordan-3 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+
+    .jordan-4 {
+        grid-column-start: 4;
+        grid-column-end: 5;
+    }
+
+   
 
     .lista-jordans img {
         width: 400px;
@@ -400,21 +421,21 @@ input:focus {
     }
 
 
-.footer {
-    height: 8rem;
+    .footer {
+        height: 8rem;
 
-    background: #181818;
-    margin-top: 10rem;
+        background: #181818;
+        margin-top: 10rem;
 
-}
+    }
 
-footer h3 {
-    font-size: 24px;
-    line-height: 196.19%;
-    /* or 35px */
+    footer h3 {
+        font-size: 24px;
+        line-height: 196.19%;
+        /* or 35px */
 
-    color: #F9F9F9;
-    padding: 1.2rem 59rem 1.3rem 59rem;
-}
+        color: #F9F9F9;
+        padding: 1.2rem 59rem 1.3rem 59rem;
+    }
 
 }
