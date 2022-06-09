@@ -21,40 +21,75 @@
             <h2 class="title-texto">JordanShoes</h2>
         </section>
 
-        <div class="banner" id="typed-strings">
-           
+        <div class="banner">
+            
             <h1 class="banner-title">A melhor loja de Jordan</h1>
-            <p class="banner-texto" id="typed">O tênis Jordan é fruto de uma velha e forte parceria entre a Nike e o jogador Michael Jordan.</p>
+            <div id="typed-strings">
+                <p  id="typed">O tênis Jordan é fruto de uma velha e forte parceria entre a Nike e o
+                    jogador Michael Jordan.</p>
+            </div> 
+            
         </div>
         <div class="destaques">
             <h1 class="destaques-title">Destaques</h1>
             <p class="destaques-texto">Frete grátis e chinelo de brinde é aqui, aproveite por tempo limitado. </p>
-        <div class="lista-jordans">
-            <ol class="lista-jordan">
-                <li class="jordan-1"><img src="/img/1.png"></li>
-                <li class="jordan-2"><img src="/img/2.png"></li>
-                <li class="jordan-3"><img src="/img/3.png"></li>
-                <li class="jordan-4"><img src="/img/4.png"></li>
-                <li class="jordan-5"><img src="/img/5.png"></li>
-                <li class="jordan-6"><img src="/img/6.png"></li>
-                <li class="jordan-7"><img src="/img/7.png"></li>
-                <li class="jordan-8"><img src="/img/8.png"></li>
-            </ol>
+            <div class="lista-jordans">
+                <ol class="lista-jordan">
+                    <a class="jordan-1" href="#" target="_blank"><img src="/img/1.png"></a>
+                    <a class="jordan-2" href="#" target="_blank"><img src="/img/2.png"></a>
+                    <a class="jordan-3" href="#" target="_blank"><img src="/img/3.png"></a>
+                    <a class="jordan-4" href="#" target="_blank"><img src="/img/4.png"></a>
+                    <a class="jordan-5" href="#" target="_blank"><img src="/img/5.png"></a>
+                    <a class="jordan-6" href="#" target="_blank"><img src="/img/6.png"></a>
+                    <a class="jordan-7" href="#" target="_blank"><img src="/img/7.png"></a>
+                    <a class="jordan-8" href="#" target="_blank"><img src="/img/8.png"></a>
+                </ol>
+            </div>
         </div>
-        </div>
-        
+
     </div>
     <footer>
         <h3 class="footer">Todos os direitos reservados.</h3>
     </footer>
-<script src="https://cd.jsdelivr.net/npm/typed.js@2.0.12"></script>
-<script>
-    var typed = new Typed('#typed', {
-        stringsElement: '#typed-strings',
-        typeSpeed: 30
-    });
-</script>
-<script src="https://unpkg.com/scrollreveal"></script>
+
+      <!-- SCRIPTS -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+    <script>
+        var typed = new Typed('#typed', {
+          stringsElement: '#typed-strings'
+        });
+      </script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script>
+        const sr = ScrollReveal({
+            origin: 'top',
+            distance: '50px',
+            duration: 2000,
+            reset: true
+        });
+
+        ScrollReveal().reveal('.destaques-texto', {
+            delay: 700,
+            origin: 'bottom',
+        });
+        ScrollReveal().reveal('.destaques-title', {
+            delay: 600
+        });
+        ScrollReveal().reveal('.title', {
+            delay: 10,
+            origin: 'left'
+        });
+        ScrollReveal().reveal('.frete', {
+            delay: 20,
+            origin: 'top'
+        });
+    </script>
 </body>
 
 </html>
