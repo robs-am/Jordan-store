@@ -162,6 +162,7 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
+    justify-content: center;
 
     padding: 0.5rem 2rem 3rem 2rem;
 }
