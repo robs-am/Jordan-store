@@ -191,8 +191,8 @@ img {
     border: 0.2rem solid #EBE9EA;
     border-radius: 0.5rem;
 
-    margin: 3rem 2rem 0rem 2rem;
-    padding-block: rem;
+    margin: 3rem 2rem 0rem 1rem;
+    padding-bottom: rem;
 
     display: flex;
     align-items: center;
@@ -262,6 +262,7 @@ input:focus {
     align-items: center;
     justify-content: center;
     padding: 30px;
+    margin-top: 2.5rem;
 
 
 }
@@ -383,7 +384,7 @@ input:focus {
 
     .lista-jordans ol {
         display: grid;
-        column-gap: 0.5rem;
+        
         row-gap: 0.5rem;
         padding-top: 5.9rem;
         
@@ -413,10 +414,7 @@ input:focus {
         grid-column-end: 5;
     }
 
-   
-
-
-    .footer {
+       .footer {
         height: 8rem;
 
         background: #181818;
