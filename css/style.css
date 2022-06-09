@@ -174,18 +174,10 @@ body {
 
 }
 
+
+
+
 .jordan-1,
-img {
-    background: #EBE9EA;
-
-    margin: 5.9rem 2rem 0rem 2rem;
-    padding-block: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
 .jordan-2,
 .jordan-3,
 .jordan-4,
@@ -197,7 +189,7 @@ img {
     background: #EBE9EA;
 
     margin: 3rem 2rem 0rem 2rem;
-    padding-block: 3rem;
+    padding-block: rem;
 
     display: flex;
     align-items: center;
@@ -220,6 +212,7 @@ a {
 a:hover img {
 
     transform: scale(1.2);
+    background: linear-gradient(#3332321e, #0f0e0e15);
     transition: 1s;
 
 }
@@ -387,8 +380,8 @@ input:focus {
 
     .lista-jordans ol {
         display: grid;
-        column-gap: 1.3rem;
-        row-gap: 3.9rem;
+        column-gap: 0.5rem;
+        row-gap: 0.5rem;
 
         padding-top: 5.9rem;
     }
@@ -416,8 +409,8 @@ input:focus {
    
 
     .lista-jordans img {
-        width: 400px;
-        height: 350px;
+        width: 350px;
+        height: 300px;
     }
 
 
