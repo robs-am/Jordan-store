@@ -24,8 +24,7 @@ html {
 body {
     font-size: 1.6rem;
 
-    width: 414px;
-    height: 3460px;
+    width: 100%;
 
     background: #F9F9F9;
 
@@ -273,7 +272,7 @@ input:focus {
 
 
 
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1024px) {
 
     body {
         font-size: 1.6rem;
